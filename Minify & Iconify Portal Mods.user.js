@@ -3,7 +3,7 @@
 // @name           IITC plugin: Minify & Iconify Portal Mods
 // @version        20250722.1432
 // @author         ODBLK
-// @namespace      https://ir.syncs.be/
+// @namespace     https://github.com/IITC-CE/ingress-intel-total-conversion
 // @description    Click mod bar to toggle between mod icon and abbreviation view. State is remembered. Optimized for fast image load.
 // @updateURL      
 // @downloadURL    
