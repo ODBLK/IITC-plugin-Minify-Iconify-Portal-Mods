@@ -1,14 +1,13 @@
 // ==UserScript==
-// @id             iitc-plugin-minify-and-iconify-porta;-mods
-// @name           IITC plugin: Minify & Iconify Portal Mods
-// @version        20250722.1432
-// @author         ODBLK
-// @namespace     https://github.com/IITC-CE/ingress-intel-total-conversion
-// @description    Click mod bar to toggle between mod icon and abbreviation view. State is remembered. Optimized for fast image load.
-// @updateURL      
-// @downloadURL    
-// @match          https://intel.ingress.com/*
-// @grant          none
+// @name         Minify & Iconify Portal Mods
+// @namespace    https://github.com/ODBLK/IITC-plugin-Minify-Iconify-Portal-Mods
+// @version      20250722.1432
+// @description  Click mod bar to toggle between mod icon and abbreviation view. State is remembered.
+// @author       ODBLK
+// @match        https://intel.ingress.com/*
+// @grant        none
+// @downloadURL  https://raw.githubusercontent.com/ODBLK/IITC-plugin-Minify-Iconify-Portal-Mods/main/minify-iconify-mods.user.js
+// @updateURL    https://raw.githubusercontent.com/ODBLK/IITC-plugin-Minify-Iconify-Portal-Mods/main/minify-iconify-mods.meta.js
 // ==/UserScript==
 function wrapper(plugin_info) {
   if (typeof window.plugin !== 'function') window.plugin = () => {};
